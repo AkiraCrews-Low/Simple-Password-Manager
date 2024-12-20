@@ -1,0 +1,46 @@
+Welcome the user to the Digi Simple Password Manager
+
+Display the menu options as follows:
+    [1] To add credentials
+    [2] To view stored credentials
+    [e] To exit the program
+
+    Ask the user for their response
+
+If a user chooses option 1:
+    Tell the user that they have chosen option 1
+    
+    Prompt the user to enter their username, password, and website/url
+    If a user enters nothing when entering a credential:
+        Tell the user they have not entered the applicable credential
+        Prompt the user to enter the applicable credential again
+    
+    Encrypt the users password
+
+    Append the users credentials to a credential storage text file
+
+    Tell the user that their credentials have been stored
+
+Display the menu options again
+
+If a user chooses option 2:
+    Tell the user that they have chosen option 2
+
+    If there is no credential storage text file:
+        Tell the user that no stored credentials exist and new credentials must be added
+        Display the menu options again
+
+    If there is no data in the credential storage text file:
+        Tell the user there is no data in the credential storage text file
+        Display the menu options again
+
+    If a credential storage text file exists and data is present:
+        Decrypt all encrypted passwords in the credential storage text file
+        Display all stored credentials in a tabular format
+
+Display the menu options again
+
+If a user chooses option e:
+    Tell the user that they have chosen to quit the program
+    
+    Shutdown the program
