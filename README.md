@@ -13,6 +13,20 @@ The **Simple Password Manager** is a Python-based program designed to help users
 
 ---
 
+## Folder Structure
+The repository is organized as follows:
+```
+/ (root directory)
+├── credentialstorage.txt   # Automatically created to store credentials
+├── docs/
+│   └── pseudocode.txt      # Pseudocode for the password manager
+├── src/
+│   └── password_manager.py # Main program file
+```
+```
+
+---
+
 ## How It Works
 ### Encryption/Decryption
 - **Encryption**: Passwords are encrypted using a simple Caesar cipher-like method, shifting each character by 3 positions in a defined character set.
@@ -28,7 +42,7 @@ The **Simple Password Manager** is a Python-based program designed to help users
 1. Clone or download the repository.
 2. Navigate to the program directory and run the script using:
    ```bash
-   python3 password_manager.py
+   python3 src/password_manager.py
    ```
 
 ### Program Menu
@@ -100,7 +114,8 @@ Please enter your response here: 2
 ---
 
 ## File Details
-- **`password_manager.py`**: Main program file containing the logic.
+- **`src/password_manager.py`**: Main program file containing the logic.
+- **`docs/pseudocode.txt`**: Contains the pseudocode for the program.
 - **`credentialstorage.txt`**: Automatically created to store credentials securely.
 
 ---
@@ -132,9 +147,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check out 
 ## Contact
 For any inquiries, reach out to:
 - **Name**: Akira Crews-Low
-- **Email**: akiraicrewslow@gmail.com
+- **Email**: acrewslow@gmail.com
 
 ---
 
 Thank you for using the Simple Password Manager! Stay secure! ❤️
-
