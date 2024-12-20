@@ -134,11 +134,6 @@ Please enter your response here: 2
 
 ---
 
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
-
----
-
 ## Contributions
 Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/your_username/your_repo_name/issues) or submit a pull request.
 
