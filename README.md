@@ -14,7 +14,7 @@ The **Simple Password Manager** is a Python-based program designed to help users
 ---
 
 ## Folder Structure
-The repository is organized as follows:
+The repository is organised as follows:
 ```
 / (root directory)
 ├── credentialstorage.txt   # Automatically created to store credentials
@@ -147,7 +147,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check out 
 ## Contact
 For any inquiries, reach out to:
 - **Name**: Akira Crews-Low
-- **Email**: acrewslow@gmail.com
+- **Email**: akiraicrewslow@gmail.com
 
 ---
 
