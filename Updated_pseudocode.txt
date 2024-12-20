@@ -1,4 +1,4 @@
-Welcome the user to the Digi Simple Password Manager
+Welcome the user to the Simple Password Manager
 
 Display the menu options as follows:
     [1] To add credentials
