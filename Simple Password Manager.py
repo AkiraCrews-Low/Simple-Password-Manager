@@ -98,7 +98,7 @@ def View_credentials():
     
 
 # Execution Section
-print ("\nWelcome to the DigiCore Simple Password Manager!")
+print ("\nWelcome to the Simple Password Manager!")
 
 choice = ''
 
